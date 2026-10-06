@@ -16,7 +16,7 @@ export default async function handler(request, response) {
   // 🔑 Valid Keys
   // 📅 Expiry: 4 November 2026
   const VALID_KEYS = {
-    "X7R9M4K2P8QZ": { expires: 1830470400000 }
+    "X7R9M4K2P8QZ": { expires: 1793750400000 }
   };
 
   const keyInfo = VALID_KEYS[apikey];
